@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: EncurtadorUrlk
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/shortdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: user
+    password: password
+
+  jpa:
+    database-plataform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      dd-auto: update
+      show-sql: true
